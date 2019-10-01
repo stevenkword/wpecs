@@ -18,7 +18,8 @@
 	],
 	"require": {
 		"wp-coding-standards/wpcs": "1.*",
-		"phpcompatibility/phpcompatibility-wp": "^1"
+		"phpcompatibility/phpcompatibility-wp": "^1",
+		"symfony/console": "^4.3"
 	},
 	"require-dev": {
 		"php": ">=5.4",

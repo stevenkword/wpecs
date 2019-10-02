@@ -1,5 +1,19 @@
 #!/bin/bash
-echo -e "WP Engine Coding Standards\nVersion 0.1.0\n"
+
+echo -e "  ____  _____  _____"
+echo -e " ╱   ▕ ▕    ▕ ▕    ▕"
+echo -e "▕    ▕ ▕    ▕ ▕    ▕"
+echo -e "▕____▕  ╲___╱  ╲___▕                                      ▫"
+echo -e " ____           ____     ▃  ▃  ▃  ▃▃▃    ___   __    __      __   ___"
+echo -e "▕    ▕    _    ╱   ▕     █  █  █ ▕█▀▀▙  ▕___) |  ▕  ╱  ▕ ▕  |  ▕ ▕___)"
+echo -e "▕    ▕   ( )  ▕    ▕      ██ ██  ▕███▛  ▕     |  ▕ ▕   ▕ ▕  |  ▕ ▕"
+echo -e "▕____╱    ‾    ╲___▕       █ █   ▕█      ╲__╱ |  ▕  ╲__▕ ▕  |  ▕  ╲__╱"
+echo -e " ____    ___   ___                                  ___╱"
+echo -e "▕    ╲  ╱   ╲ ▕    ╲"
+echo -e "▕    ▕ ▕    ▕ ▕    ▕"
+echo -e "▕____╱ ▕____▕ ▕____▕\n"
+
+echo -e "WP Engine Coding Standards - Version 0.1.0"
 
 SOURCE_DIR=$(readlink "${BASH_SOURCE[0]}")
 VENDOR_DIR="$(dirname "$(dirname "$SOURCE_DIR" )" )"
